@@ -63,6 +63,10 @@ Kick off your project with this hello-world boilerplate. This starter ships with
 
 ## Deploy
 
+Deploy this starter with one click on [Vercel](https://vercel.com/):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fflotiq%2Fnextjs-starter-boilerplate)
+
 ## Learning Next.js
 
 Looking for more guidance? Full documentation for Next.js lives [on the website](https://nextjs.org/). Here are some places to start:
