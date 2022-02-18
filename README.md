@@ -9,44 +9,55 @@ Kick off your project with this hello-world boilerplate. This starter ships with
 
 ## Quick start
 
-1**Start the project from template using npx**
+1. **Start the project from template using npx**
 
     ```bash
-    npx new my-hello-world-starter https://github.com/flotiq/nextjs-starter-boilerplate.git
+    git clone https://github.com/flotiq/nextjs-starter-boilerplate.git my-hello-world-starter
     ```
 2. **Import example data from starter to Flotiq**
    
    ```bash
    cd my-hello-world-starter
-   flotiq-cli import [flotiqApiKey] .
+   flotiq import [flotiqApiKey] .
    ```
    _Note: You need to put your Read and write API key as the `flotiqApiKey` for import to work, You don't need any content types in your account._
 
-4. **Configure application**
+3. **Configure application**
 
    The next step is to configure our application to know from where it has to fetch the data.
 
-   You need to create a file called `.env.local`. Copy `.env.dist` as `.env.local` and add api key:
+   Copy `.env.dist` as `.env.local`
+   
+   ```bash
+   cp .env.dist .env.local
+   ```
+ 
+   and add api key:
 
     ```
     FLOTIQ_API_KEY=YOUR FLOTIQ API KEY
     ```
 
+4. **Install dependencies**
+   ```bash
+   yarn install
+   ```
 5. **Start developing.**
 
    Navigate into your new site’s directory and start it up.
 
     ```shell
+    yarn install
     yarn dev
     ```
 
-5. **Open the source code and start editing!**
+6. **Open the source code and start editing!**
 
    Your site is now running at `http://localhost:3000`!
 
    Open the `my-hello-world-starter` directory in your code editor of choice and edit `pages/index.js`. Save your changes and the browser will update in real time!
 
-6. **Manage your content using Flotiq editor**
+7. **Manage your content using Flotiq editor**
 
    You can now easily manage your content using [Flotiq editor](https://editor.flotiq.com)
 
