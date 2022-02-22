@@ -19,9 +19,9 @@ export default function Home({ examplesData }) {
                 />
             </div>
             <Header
-                level={1}
-                className="text-center m-24 text-5xl text-light-blue font-bold"
-                text={<>{examplesData[0].header}</>}
+                additionalClasses={["m-24 !text-5xl text-light-blue"]}
+                text={examplesData[0].header}
+                alignment="center"
             />
             <p className="text-center text-4xl text-light-blue">
                 You can learn more about Flotiq in the{' '}

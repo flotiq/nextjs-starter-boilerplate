@@ -17,6 +17,7 @@ Kick off your project with this hello-world boilerplate. This starter ships with
 2. **Import example data from starter to Flotiq**
    
    ```bash
+   npm i -g flotiq-cli
    cd my-hello-world-starter
    flotiq import [flotiqApiKey] .
    ```
@@ -39,15 +40,18 @@ Kick off your project with this hello-world boilerplate. This starter ships with
     ```
 
 4. **Install dependencies**
+
+   Navigate into your new site’s directory and run
+
    ```bash
    yarn install
    ```
+   
 5. **Start developing.**
 
    Navigate into your new site’s directory and start it up.
 
     ```shell
-    yarn install
     yarn dev
     ```
 
