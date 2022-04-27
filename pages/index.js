@@ -20,9 +20,10 @@ export default function Home({ examplesData }) {
             </div>
             <Header
                 additionalClasses={["m-24 !text-5xl text-light-blue"]}
-                text={examplesData[0].header}
                 alignment="center"
-            />
+            >
+                {examplesData[0].header}
+            </Header>
             <p className="text-center text-4xl text-light-blue">
                 You can learn more about Flotiq in the{' '}
                 <a

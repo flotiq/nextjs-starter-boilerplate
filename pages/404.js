@@ -13,8 +13,9 @@ const NotFoundPage = () => (
         <Header
             level={1}
             className="text-center m-24 text-5xl text-light-blue font-bold"
-            text="Page not found, sorry"
-        />
+        >
+            Page not found, sorry
+        </Header>
     </main>
 )
 
