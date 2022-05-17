@@ -6,7 +6,7 @@ Next JS starter boilerplate with Flotiq source
 ===========================
 
 Kick off your project with this hello-world boilerplate. This starter ships with the main Next JS configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-Check out live demo: [flotiq-nextjs-boilerplate.netlify.app](flotiq-nextjs-boilerplate.netlify.app) 
+Check out live demo: [https://flotiq-nextjs-boilerplate.netlify.app](https://flotiq-nextjs-boilerplate.netlify.app) 
 
 ## Quick start
 
