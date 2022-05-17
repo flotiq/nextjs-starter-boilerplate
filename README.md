@@ -6,6 +6,7 @@ Next JS starter boilerplate with Flotiq source
 ===========================
 
 Kick off your project with this hello-world boilerplate. This starter ships with the main Next JS configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Check out live demo: [https://flotiq-nextjs-boilerplate.netlify.app](https://flotiq-nextjs-boilerplate.netlify.app) 
 
 ## Quick start
 
@@ -70,6 +71,14 @@ Kick off your project with this hello-world boilerplate. This starter ships with
 Deploy this starter with one click on [Vercel](https://vercel.com/):
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fflotiq%2Fnextjs-starter-boilerplate)
+
+You can also deploy this project to [Heroku](https://www.heroku.com/) in 3 minutes:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fflotiq%2Fnextjs-starter-boilerplate)
+
+Or to [Netlify](https://www.netlify.com/):
+
+[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https%3A%2F%2Fgithub.com%2Fflotiq%2Fnextjs-starter-boilerplate)
 
 ## Learning Next.js
 
