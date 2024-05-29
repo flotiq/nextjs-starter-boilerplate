@@ -1,6 +1,6 @@
-import '../styles/globals.css'
-import Head from 'next/head'
-import { React, useEffect } from 'react';
+import '../styles/globals.css';
+import Head from 'next/head';
+import React, { useEffect } from 'react';
 import Script from 'next/script';
 import { useRouter } from 'next/router';
 import * as gtag from '../lib/gtag';
@@ -27,7 +27,6 @@ const MyApp = ({ Component, pageProps }) => {
                 strategy="afterInteractive"
                 src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
             />
-            {/* eslint-disable-next-line @next/next/inline-script-id */}
             <Script
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{
@@ -46,4 +45,4 @@ const MyApp = ({ Component, pageProps }) => {
     );
 };
 
-export default MyApp
+export default MyApp;
