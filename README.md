@@ -2,7 +2,7 @@
     <img src="https://editor.flotiq.com/fonts/fq-logo.svg" alt="Flotiq logo" title="Flotiq" align="right" height="60" />
 </a>
 
-Next JS starter boilerplate with Flotiq source
+Next.js starter boilerplate with Flotiq source
 ===========================
 
 Kick off your project with this hello-world boilerplate. This starter ships with the main Next JS configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
@@ -28,17 +28,16 @@ Check out live demo: [https://flotiq-nextjs-boilerplate.netlify.app](https://flo
 
    The next step is to configure our application to know from where it has to fetch the data.
 
-   Copy `.env.dist` as `.env.local`
+   Flotiq provides a tool for automatically populating `.env` files with your Flotiq API keys.
    
    ```bash
-   cp .env.dist .env.local
+   npx flotiq-setup
    ```
- 
-   and add api key:
 
-    ```
-    FLOTIQ_API_KEY=YOUR FLOTIQ API KEY
-    ```
+   After executing this command, a browser window will open with the Flotiq login screen. Upon successful authentication,
+   the command will automatically generate appropriately filled .env files for you.
+
+   _Note: If there are existing .env files in the project, flotiq-setup may overwrite them._
 
 4. **Install dependencies**
 
@@ -47,8 +46,30 @@ Check out live demo: [https://flotiq-nextjs-boilerplate.netlify.app](https://flo
    ```bash
    yarn install
    ```
-   
-5. **Start developing.**
+
+5. **Flotiq codegen**
+
+   This package simplifies Typescript Fetch API integration for your Flotiq project, tailored to your Flotiq account
+   data. To build your customized API package, just run this command:
+
+   ```bash
+   npx flotiq-codegen-ts generate --compiled-js
+   ```
+
+   Now, in your project, you can use the `FlotiqApi` class for easy and convenient communication with the Flotiq API.
+
+   ```javascript
+      import {FlotiqApi} from '../flotiqApi/index';
+
+      const api = new FlotiqApi(apiKey);
+   ```
+
+   Examples of its usage can be found in the `lib/event.js` file of this project or can be explored in the
+   [flotiq-codegen-ts repository](https://github.com/flotiq/flotiq-codegen-ts)
+
+   _Note: If you make any changes (additions or deletions) to the `content type definitions` in your Flotiq account, you will need to rerun `npx flotiq-codegen-ts generate --compiled-js` command._
+
+6. **Start developing.**
 
    Navigate into your new site’s directory and start it up.
 
@@ -56,15 +77,18 @@ Check out live demo: [https://flotiq-nextjs-boilerplate.netlify.app](https://flo
     yarn dev
     ```
 
-6. **Open the source code and start editing!**
+7. **Open the source code and start editing!**
 
    Your site is now running at `http://localhost:3000`!
 
    Open the `my-hello-world-starter` directory in your code editor of choice and edit `pages/index.js`. Save your changes and the browser will update in real time!
 
-7. **Manage your content using Flotiq editor**
+8. **Manage your content using Flotiq editor**
 
    You can now easily manage your content using [Flotiq editor](https://editor.flotiq.com)
+
+   _Note: If you are using `FlotiqApi` generated from `flotiq-codegen-ts` remember to rerun `npx flotiq-codegen-ts generate --compiled-js`
+   command after changes (additions or edits) to the `content type definitions` in your Flotiq_
 
 ## Deploy
 
