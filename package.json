@@ -30,7 +30,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.6",
     "@babel/eslint-parser": "^7.24.6",
-    "@babel/plugin-syntax-flow": "^7.24.6",
+    "@babel/plugin-syntax-flow": "^7.24.7",
     "@babel/plugin-transform-react-jsx": "^7.24.6",
     "@babel/preset-react": "^7.24.6",
     "@svgr/webpack": "^8.1.0",
