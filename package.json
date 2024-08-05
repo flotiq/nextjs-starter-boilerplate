@@ -31,7 +31,7 @@
     "@babel/core": "^7.24.6",
     "@babel/eslint-parser": "^7.24.6",
     "@babel/plugin-syntax-flow": "^7.24.6",
-    "@babel/plugin-transform-react-jsx": "^7.24.6",
+    "@babel/plugin-transform-react-jsx": "^7.25.2",
     "@babel/preset-react": "^7.24.6",
     "@svgr/webpack": "^8.1.0",
     "autoprefixer": "^10.4.19",
