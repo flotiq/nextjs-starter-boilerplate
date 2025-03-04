@@ -1,7 +1,6 @@
 {
   "name": "example",
   "label": "Example",
-  "workflowId": "generic",
   "internal": false,
   "schemaDefinition": {
     "type": "object",
