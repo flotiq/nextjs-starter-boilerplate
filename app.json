@@ -1,0 +1,14 @@
+{
+    "name": "nextjs-starter-boilerplate",
+    "repository": "https://github.com/flotiq/nextjs-starter-boilerplate",
+    "env":{
+      "FLOTIQ_API_KEY": {
+        "description": "Flotiq API key"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ]
+  }
