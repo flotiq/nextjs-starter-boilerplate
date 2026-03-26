@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { getExamplesData } from '../lib/examples'
 import replaceUndefinedWithNull from '../lib/sanitize'
+import { Header } from 'flotiq-components-react'
 
 const Home = ({ examplesData }) => (
     <main className="plant-bg flex flex-col md:flex-row h-screen">
@@ -18,9 +19,12 @@ const Home = ({ examplesData }) => (
                     alt="Flotiq logo"
                     className="logo w-60 2xl:w-72 mx-auto"
                 />
-                <h1 className="text-3xl 2xl:text-5xl text-light-blue font-bold text-center mb-6 2xl:mb-10">
+                <Header
+                    level={1}
+                    className="text-3xl 2xl:text-5xl text-light-blue font-bold text-center mb-6 2xl:mb-10"
+                >
                     {examplesData[0].header}
-                </h1>
+                </Header>
                 <p className="text-center text-xl lg:text-2xl text-light-blue">
                     You can learn more about Flotiq in the{' '}
                     <a
@@ -50,10 +54,10 @@ const Home = ({ examplesData }) => (
 export default Home
 
 export async function getStaticProps() {
-    const dataPage = await getExamplesData();
+    const dataPage = await getExamplesData()
     return {
         props: {
             examplesData: replaceUndefinedWithNull(dataPage.data),
         },
-    };
+    }
 }
