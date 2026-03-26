@@ -1,0 +1,31 @@
+.plant-bg {
+    background-image: url('/mobile-background-image.png');
+    background-size: cover;
+}
+
+@media (min-width: 640px) {
+    .plant-bg {
+        background-image: url('/background-image.png');
+        background-size: cover;
+    }  
+}
+
+.logo {
+    margin-bottom: 2rem;
+} 
+
+@media (min-height: 500px) {
+    .logo {
+        position: absolute;
+        top: -8rem;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 0;
+    } 
+}
+
+@media (min-height: 800px) {
+    .logo {
+        top: -10rem;
+    } 
+}
