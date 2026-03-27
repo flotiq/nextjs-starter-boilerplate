@@ -10,22 +10,8 @@
     }  
 }
 
-.logo {
-    margin-bottom: 2rem;
-} 
-
 @media (min-height: 500px) {
-    .logo {
-        position: absolute;
-        top: -8rem;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: 0;
-    } 
-}
-
-@media (min-height: 800px) {
-    .logo {
-        top: -10rem;
+    .grid-layout {
+        grid-template-rows: repeat(3, minmax(0, 1fr));
     } 
 }

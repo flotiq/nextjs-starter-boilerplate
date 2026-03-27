@@ -10,15 +10,15 @@ const Home = ({ examplesData }) => (
             <title>{examplesData[0].title}</title>
         </Head>
 
-        <div className="relative h-full bg-dark-blue/70 flex flex-col justify-center items-center p-10 md:w-1/2 lg:p-24 lg:w-3/5">
-            <div className="relative">
-                <Image
-                    src="/logo.svg"
-                    height={85}
-                    width={300}
-                    alt="Flotiq logo"
-                    className="logo w-60 2xl:w-72 mx-auto"
-                />
+        <div className="h-full bg-dark-blue/70 grid grid-layout gap-2 p-10 md:w-1/2 lg:p-24 lg:w-3/5">
+            <Image
+                src="/logo.svg"
+                height={85}
+                width={300}
+                alt="Flotiq logo"
+                className="w-60 2xl:w-72 mx-auto self-center md:self-end"
+            />
+            <div className="md:self-center">
                 <Header
                     level={1}
                     className="text-3xl 2xl:text-5xl text-light-blue font-bold text-center mb-6 2xl:mb-10"
@@ -54,7 +54,7 @@ const Home = ({ examplesData }) => (
 export default Home
 
 export async function getStaticProps() {
-    const dataPage = await getExamplesData()
+    const dataPage = await getExamplesData();
     return {
         props: {
             examplesData: replaceUndefinedWithNull(dataPage.data),
