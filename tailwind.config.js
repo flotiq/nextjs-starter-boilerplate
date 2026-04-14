@@ -1,7 +1,7 @@
 module.exports = {
     content: [
         './node_modules/flotiq-components-react/dist/**/*.{js,jsx,ts,tsx}',
-        './pages/**/*.{js,ts,jsx,tsx}',
+        './app/**/*.{js,ts,jsx,tsx}',
         './components/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
@@ -18,4 +18,4 @@ module.exports = {
     presets: [
         require('./node_modules/flotiq-components-react/dist/tailwind.preset'), // Flotiq Component theme presets
     ],
-};
+}
