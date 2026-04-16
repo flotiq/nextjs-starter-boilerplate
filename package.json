@@ -6,26 +6,26 @@
   "license": "MIT",
   "author": "Flotiq team <helo@flotiq.com> (https://flotiq.com/)",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+      "dev": "next dev --turbopack",
+      "build": "next build --turbopack",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@zeit/next-source-maps": "^0.0.3",
     "@typescript-eslint/parser": "^8.4.0",
+      "@svgr/webpack": "^8.1.0",
     "dotenv": "^16.4.5",
     "flotiq-components-react": "^2.0.1",
     "highlight.js": "^11.10.0",
-    "next": "^15.0.3",
+      "next": "^16.2.4",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.8.5",
     "next-runtime-dotenv": "^1.5.1",
     "next-transpile-modules": "^10.0.1",
     "prop-types": "^15.8.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "webpack": "^5.94.0"
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -33,7 +33,6 @@
     "@babel/plugin-syntax-flow": "^7.24.7",
     "@babel/plugin-transform-react-jsx": "^7.25.2",
     "@babel/preset-react": "^7.24.7",
-    "@svgr/webpack": "^8.1.0",
     "autoprefixer": "^10.4.20",
     "eslint": "8.57.0",
     "eslint-config-airbnb": "^19.0.4",
