@@ -1,13 +1,10 @@
-import { Header } from 'flotiq-components-react'
-import Head from 'next/head'
+'use client'
+
 import Image from 'next/image'
+import { Header } from 'flotiq-components-react'
 
-const NotFoundPage = () => (
+const NotFoundContent = () => (
     <main className="plant-bg flex flex-col h-screen justify-center items-center">
-        <Head>
-            <title>Page not found</title>
-        </Head>
-
         <div className="bg-dark-blue/80 h-full w-full grid grid-layout gap-2 p-10 lg:p-24">
             <Image
                 src="/logo-white.svg"
@@ -26,4 +23,4 @@ const NotFoundPage = () => (
     </main>
 )
 
-export default NotFoundPage;
+export default NotFoundContent

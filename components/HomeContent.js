@@ -1,15 +1,10 @@
-import Head from 'next/head'
+'use client'
+
 import Image from 'next/image'
-import { getExamplesData } from '../lib/examples'
-import replaceUndefinedWithNull from '../lib/sanitize'
 import { Header } from 'flotiq-components-react'
 
-const Home = ({ examplesData }) => (
+const HomeContent = ({ examplesData }) => (
     <main className="plant-bg flex flex-col md:flex-row h-screen">
-        <Head>
-            <title>{examplesData[0].title}</title>
-        </Head>
-
         <div className="h-full bg-dark-blue/70 grid grid-layout gap-2 p-10 md:w-1/2 lg:p-24 lg:w-3/5">
             <Image
                 src="/logo.svg"
@@ -51,13 +46,4 @@ const Home = ({ examplesData }) => (
     </main>
 )
 
-export default Home
-
-export async function getStaticProps() {
-    const dataPage = await getExamplesData();
-    return {
-        props: {
-            examplesData: replaceUndefinedWithNull(dataPage.data),
-        },
-    }
-}
+export default HomeContent

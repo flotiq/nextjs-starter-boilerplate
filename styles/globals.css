@@ -5,3 +5,24 @@
 html {
     scroll-behavior: smooth;
 }
+
+.plant-bg {
+    background-image: url('/mobile-background-image.png');
+    background-size: cover;
+}
+
+
+@media (min-width: 640px) {
+    .plant-bg {
+        background-image: url('/background-image.png');
+        background-size: cover;
+    }
+}
+
+
+@media (min-height: 500px) {
+    .grid-layout {
+        grid-template-rows: repeat(3, minmax(0, 1fr));
+    }
+}
+
