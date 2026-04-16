@@ -1,20 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const withImages = require("next-images")
+const nextComposePlugins = require('next-compose-plugins');
+const { withPlugins } = nextComposePlugins.extend(() => ({}));
+const withTM = require('next-transpile-modules')(['flotiq-components-react'])
+
+module.exports = withPlugins([withTM, withImages], {
     images: {
         dangerouslyAllowSVG: true,
     },
-    transpilePackages: ['flotiq-components-react'],
-    webpack: (config, options) => {
-        if (!options.isServer) {
-            // eslint-disable-next-line no-param-reassign
-            config.resolve.alias['@sentry/node'] = '@sentry/browser'
-        }
-        config.module.rules.push({
-            test: /\.svg$/,
-            use: ['@svgr/webpack'],
-        })
-        return config
+    turbopack: {
+        rules: {
+            '*.svg': {
+                loaders: ['@svgr/webpack'],
+                as: '*.js',
+            },
+        },
     },
-}
-
-module.exports = nextConfig
+})
