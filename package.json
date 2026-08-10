@@ -2,7 +2,7 @@
   "name": "nextjs-starter-boilerplate",
   "private": true,
   "description": "Flotiq NextJS boilerplate starter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "Flotiq team <helo@flotiq.com> (https://flotiq.com/)",
   "scripts": {
