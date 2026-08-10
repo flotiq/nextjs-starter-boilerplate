@@ -3,109 +3,15 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cff8e463-5900-422c-b638-3ac1521fb257" name="Changes" comment="">
+    <list default="true" id="cff8e463-5900-422c-b638-3ac1521fb257" name="Changes" comment="#26426 flotiq sdk upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/apis/ExampleAPI.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/apis/ExampleAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/apis/MediaInternalAPI.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/apis/MediaInternalAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/apis/TagInternalAPI.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/apis/TagInternalAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/apis/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/apis/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/AbstractContentTypeSchemaDefinition.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/AbstractContentTypeSchemaDefinition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/AbstractContentTypeSchemaDefinitionInternal.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/AbstractContentTypeSchemaDefinitionInternal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/AbstractContentTypeSchemaDefinitionWithoutInternal.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/AbstractContentTypeSchemaDefinitionWithoutInternal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/BatchResponseError.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/BatchResponseError.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/BatchResponseErrorErrorsInner.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/BatchResponseErrorErrorsInner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/BatchResponseErrorErrorsInnerErrors.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/BatchResponseErrorErrorsInnerErrors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/BatchResponseSuccess.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/BatchResponseSuccess.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/DataSource.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/DataSource.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Example.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Example.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleBatchDelete200Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleBatchDelete200Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleBatchDelete400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleBatchDelete400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleCreate400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleCreate400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleDelete400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleDelete400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleGetRemoved400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleGetRemoved400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleList.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleList400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleList400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleVersionsList.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleVersionsList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleWithoutInternal.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleWithoutInternal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleWithoutRequired.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/ExampleWithoutRequired.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Media.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Media.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaBatchDelete400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaBatchDelete400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaCreate400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaCreate400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaList.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaVersionsList.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaVersionsList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaWithoutInternal.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaWithoutInternal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaWithoutInternalAllOfTrim.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaWithoutInternalAllOfTrim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaWithoutInternalAllOfVariants.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaWithoutInternalAllOfVariants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaWithoutRequired.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/MediaWithoutRequired.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Model401Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Model401Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Model403Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Model403Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Model404Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Model404Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/SystemListProperties.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/SystemListProperties.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Tag.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/Tag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagBatchDelete400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagBatchDelete400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagCreate400Response.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagCreate400Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagList.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagVersionsList.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagVersionsList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagWithoutInternal.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagWithoutInternal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagWithoutRequired.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/TagWithoutRequired.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/VersionItem.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/VersionItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/VersionItemAllOfOwner.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/VersionItemAllOfOwner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/VersionsList.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/VersionsList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/models/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/runtime.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flotiqApi/runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/examples.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/examples.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0146800429564689" />
+      <entry key="MS500" value="1.4298798467354656" />
+      <entry key="S2" value="1.8686542083224582" />
+      <entry key="S5" value="2.4067960135448843" />
+      <entry key="S10" value="2.9461351503326183" />
+      <entry key="S30" value="3.5666954445159784" />
+      <entry key="S60" value="3.7709932214795536" />
+      <entry key="M2" value="3.882223702663438" />
+      <entry key="M5" value="3.9520791231253005" />
+      <entry key="M10" value="3.975902374840696" />
+      <entry key="M15" value="3.9839042710422663" />
+      <entry key="M30" value="3.9919367726707007" />
+      <entry key="H1" value="3.9959645380871307" />
+      <entry key="H2" value="3.997981306037938" />
+      <entry key="H4" value="3.998990412149514" />
+      <entry key="D1" value="3.9998317018941374" />
+      <entry key="W1" value="3.9999759565937887" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.9931870343495634E-138" />
+      <entry key="S5" value="8.314176146839212E-56" />
+      <entry key="S10" value="2.883431314742769E-28" />
+      <entry key="S30" value="6.606476130894499E-10" />
+      <entry key="S60" value="2.5703066219605982E-5" />
+      <entry key="M2" value="0.005069819150581801" />
+      <entry key="M5" value="0.1207805455762811" />
+      <entry key="M10" value="0.34753495590556227" />
+      <entry key="M15" value="0.4943095438722449" />
+      <entry key="M30" value="0.7030715069409691" />
+      <entry key="H1" value="0.8384935938580385" />
+      <entry key="H2" value="0.915692958287896" />
+      <entry key="H4" value="0.9569184700317452" />
+      <entry key="D1" value="0.9926873543864831" />
+      <entry key="W1" value="0.9989520474757513" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="9.915190385207951E-5" />
-      <entry key="MS500" value="0.158219574246285" />
-      <entry key="S2" value="0.6306887044156247" />
-      <entry key="S5" value="0.8316220983749063" />
-      <entry key="S10" value="0.911933165519769" />
-      <entry key="S30" value="0.9697378274420021" />
-      <entry key="S60" value="0.9847526732342503" />
-      <entry key="M2" value="0.992347052816831" />
-      <entry key="M5" value="0.9969317641854318" />
-      <entry key="M10" value="0.998464703525083" />
-      <entry key="M15" value="0.9989762069339322" />
-      <entry key="M30" value="0.9994879723808247" />
-      <entry key="H1" value="0.9997439534104844" />
-      <entry key="H2" value="0.9998719685092109" />
-      <entry key="H4" value="0.9999359822054664" />
-      <entry key="D1" value="0.999989330082964" />
-      <entry key="W1" value="0.9999984757191674" />
+      <entry key="MS100" value="0.93339794496665" />
+      <entry key="MS500" value="1.1915617101954274" />
+      <entry key="S2" value="1.724202783807578" />
+      <entry key="S5" value="2.3236259478368453" />
+      <entry key="S10" value="2.8935365452176156" />
+      <entry key="S30" value="3.5450315186344006" />
+      <entry key="S60" value="3.7595090806796834" />
+      <entry key="M2" value="3.8813156123915413" />
+      <entry key="M5" value="4.070067121647319" />
+      <entry key="M10" value="4.32168488094004" />
+      <entry key="M15" value="4.476893388416258" />
+      <entry key="M30" value="4.6942402219129" />
+      <entry key="H1" value="4.834039183107069" />
+      <entry key="H2" value="4.913454843360138" />
+      <entry key="H4" value="4.955796516714528" />
+      <entry key="D1" value="4.992499944842328" />
+      <entry key="W1" value="4.9989252642605475" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -197,38 +103,52 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3CIvgENq0ptVq3cWMxAiMxeXPOT" />
+  <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/krzysztof.brylski/Desktop/next-boilerplate",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/krzysztof.brylski/Desktop/next-boilerplate/node_modules/prettier",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Flotiq\\nextjs-starter-boilerplate\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/krzysztof.brylski/Desktop/next-boilerplate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/krzysztof.brylski/Desktop/next-boilerplate/node_modules/prettier&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Flotiq\\nextjs-starter-boilerplate\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Flotiq\nextjs-starter-boilerplate\src\app" />
