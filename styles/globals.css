@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@config "../tailwind.config.js";
+@import "tailwindcss";
 
 html {
     scroll-behavior: smooth;
@@ -25,4 +24,3 @@ html {
         grid-template-rows: repeat(3, minmax(0, 1fr));
     }
 }
-
